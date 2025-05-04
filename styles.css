@@ -1,13 +1,13 @@
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans-Regular.woff");
+  src: url("fonts/OpenSans-Regular.woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans-Bold.woff");
+  src: url("fonts/OpenSans-Bold.woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -78,7 +78,7 @@ button:hover {
 /* ///////////////////////////////////////////////////Header/////////////////////////////////////////////////// */
 
 .header {
-  background-image: url("../images/banner-bg.jpg");
+  background-image: url("images/banner-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #000000;
@@ -194,19 +194,19 @@ button:hover {
 }
 
 .first__trend {
-  background-image: url(../images/trend1.jpg);
+  background-image: url(images/trend1.jpg);
 }
 
 .second__trend {
-  background-image: url(../images/trend2.jpg);
+  background-image: url(images/trend2.jpg);
 }
 
 .third__trend {
-  background-image: url(../images/trend3.jpg);
+  background-image: url(images/trend3.jpg);
 }
 
 .fourth__trend {
-  background-image: url(../images/trend4.jpg);
+  background-image: url(images/trend4.jpg);
 }
 
 .trend::after {
@@ -589,7 +589,7 @@ button:hover {
 .frequency__input {
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url("/svg/form-arrows.svg");
+  background-image: url("svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-position: right 18px center;
   background-size: 10px 16px;
@@ -628,7 +628,7 @@ button:hover {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url(/svg/form-empty-circle.svg);
+  background-image: url(svg/form-empty-circle.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 20px;
@@ -644,7 +644,7 @@ button:hover {
 }
 
 .radio__input:checked ~ .radio__text::before {
-  background-image: url(/svg/form-circle.svg);
+  background-image: url(svg/form-circle.svg);
 }
 
 .form__textarea {
@@ -798,15 +798,15 @@ footer {
 }
 
 .icon__dribble {
-  background-image: url("../svg/001-dribbble.svg");
+  background-image: url("svg/001-dribbble.svg");
 }
 
 .icon__pinterest {
-  background-image: url("../svg/001-pinterest.svg");
+  background-image: url("svg/001-pinterest.svg");
 }
 
 .icon__tumblr {
-  background-image: url("../svg/003-tumblr.svg");
+  background-image: url("svg/003-tumblr.svg");
 }
 
 .footer__copyrights {
@@ -826,7 +826,7 @@ footer {
 
   /* ///////////////////////////////////////////////////Header/////////////////////////////////////////////////// */
   .header {
-    background-image: url("../images/banner-bg-tablet.jpg");
+    background-image: url("images/banner-bg-tablet.jpg");
     height: 390px;
     /* width: 100%; */
   }
@@ -991,7 +991,7 @@ footer {
     width: 100%;
   }
   .header {
-    background-image: url("../images/banner-mobile.jpg");
+    background-image: url("images/banner-mobile.jpg");
     background-position: 100%;
     height: 638px;
   }
