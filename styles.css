@@ -185,6 +185,7 @@ button:hover {
 
 .trend {
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-color: #000000;
   position: relative;
@@ -193,7 +194,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  padding: 15px 18px 15px 18px;
+  padding: 15px 18px;
   box-sizing: border-box;
 }
 
@@ -226,20 +227,26 @@ button:hover {
 }
 
 .trend__details {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 40px 0 35px 36px;
+  width: 95%;
+  padding-left: 35px;
+  padding: 40px 24px 35px 36px;
   box-sizing: border-box;
   border: 3px solid rgb(181, 159, 91);
-  align-self: self-end;
 }
 
 .trend__details-title {
   margin: 0;
   padding: 0;
   line-height: 1.2;
+  max-width: 100%;
+  word-wrap: break-word;
+  white-space: normal;
+  color: white;
 }
 
 .trend__details-link {
@@ -830,7 +837,6 @@ footer {
   .header {
     background-image: url("./images/banner-bg-tablet.jpg");
     height: 390px;
-    /* width: 100%; */
   }
 
   .header__section {
@@ -883,7 +889,7 @@ footer {
   }
 
   .trend__details {
-    padding: 50px 0 35px 20px;
+    padding: 50px 24px 35px 20px;
   }
 
   .trend__details-link {
@@ -1030,6 +1036,8 @@ footer {
     margin-top: 44px;
     padding-bottom: 0;
   }
+
+  /* ///////////////////////////////////////////////////Trends mobile/////////////////////////////////////////////////// */
 
   .trends {
     margin-top: 45px;
