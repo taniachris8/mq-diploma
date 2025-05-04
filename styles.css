@@ -12,6 +12,10 @@
   font-style: normal;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 16px; /* 1rem = 16px */
 }
@@ -35,7 +39,7 @@ body {
   font-family: "OpenSans", sans-serif;
   margin: 0;
   padding: 0;
-   display: flex;
+  display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
@@ -259,7 +263,6 @@ button:hover {
   margin-top: 64px;
   display: flex;
   flex-direction: column;
-  /* width: 790px; */
   margin-right: 120px;
 }
 
@@ -406,9 +409,9 @@ button:hover {
   border-bottom: 1px solid var(--lighter-accent-color);
 }
 
- .search__label {
-    width: 100%;
-  }
+.search__label {
+  width: 100%;
+}
 
 .search__input {
   box-sizing: border-box;
@@ -823,7 +826,6 @@ footer {
 /* ////////////////////////////////////////Tablet styles//////////////////////////////////////// */
 
 @media (min-width: 641px) and (max-width: 1200px) {
-
   /* ///////////////////////////////////////////////////Header/////////////////////////////////////////////////// */
   .header {
     background-image: url("./images/banner-bg-tablet.jpg");
@@ -854,7 +856,7 @@ footer {
   .header__title {
     font-size: 2.1rem;
     margin-top: 100px;
-   padding-bottom: 0;
+    padding-bottom: 0;
   }
 
   /* ///////////////////////////////////////////////////Trends tablet/////////////////////////////////////////////////// */
@@ -973,7 +975,6 @@ footer {
   .footer__social-media {
     margin-bottom: 50px;
   }
-
 }
 
 /* @media (min-width: 641px) and (orientation: portrait) and (max-width: 1200px) {
@@ -984,7 +985,6 @@ footer {
 
 /* ////////////////////////////////////////Mobile styles//////////////////////////////////////// */
 @media (max-width: 640px) {
-
   /* ///////////////////////////////////////////////////Header mobile/////////////////////////////////////////////////// */
 
   body {
@@ -1023,12 +1023,11 @@ footer {
 
   .logo__mobile {
     display: block;
-    
   }
 
   .header__title {
     font-size: 1.625rem;
-   margin-top: 44px;
+    margin-top: 44px;
     padding-bottom: 0;
   }
 
@@ -1162,15 +1161,15 @@ footer {
 
   /*////////////////////////////////////////////// Popup mobile///////////////////////////////////////////////////// */
 
-.form__open-button {
- width: 100%;
-}
+  .form__open-button {
+    width: 100%;
+  }
 
-.form {
-  width: 78%;
-}
+  .form {
+    width: 78%;
+  }
 
-/* ///////////////////////////////////////////////////Our products mobile/////////////////////////////////////////////////// */
+  /* ///////////////////////////////////////////////////Our products mobile/////////////////////////////////////////////////// */
 
   .our__products {
     margin-top: 49px;
@@ -1196,15 +1195,13 @@ footer {
   /* ///////////////////////////////////////////////////Footer mobile/////////////////////////////////////////////////// */
 
   footer {
-    /* margin-top: 42px;   */ 
-    padding-top: 42px;  
+    padding-top: 42px;
     width: 100%;
   }
 
   .footer__social-media {
     margin-bottom: 50px;
   }
-
 }
 
 /* @media (max-width: 640px) and (orientation: landscape) {
