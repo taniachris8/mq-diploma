@@ -723,7 +723,7 @@ button:hover {
 }
 
 .product-description {
-  height: 265px;
+  min-height: 265px;
   padding: 24px;
   box-sizing: border-box;
   border: 3px solid rgb(181, 159, 91);
