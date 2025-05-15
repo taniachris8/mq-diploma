@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-family: "OpenSans";
+  font-family: "OpenSans", sans-serif;
   src: url("./fonts/OpenSans-Bold.woff");
   font-weight: 700;
   font-style: normal;
@@ -107,7 +107,7 @@ button:hover {
 .header-section {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 34px 20px 0 20px;
+  padding: 27px 20px 0 20px;
   align-items: center;
   box-sizing: border-box;
 }
@@ -159,15 +159,17 @@ button:hover {
   font-size: var(--font-large);
   text-align: center;
   text-transform: uppercase;
-  margin-top: 110px;
+  margin-top: 126px;
   margin-bottom: 0;
   padding-bottom: 146px;
+  line-height: 1.667;
+
 }
 
 /* ///////////////////////////////////////////////////Trends/////////////////////////////////////////////////// */
 
 .trends {
-  margin-top: 63px;
+  margin-top: 57px;
   display: flex;
   flex-direction: column;
 }
