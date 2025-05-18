@@ -963,6 +963,7 @@ footer {
   .our-products-wrapper {
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
+    margin-bottom: 100px;
   }
 
   .product {
@@ -980,7 +981,7 @@ footer {
   /* ///////////////////////////////////////////////////Footer tablet/////////////////////////////////////////////////// */
 
   footer {
-    margin-top: 49px;
+    /* margin-top: 49px; */
     width: 100%;
   }
 
