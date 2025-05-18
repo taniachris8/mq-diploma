@@ -18,6 +18,7 @@
 
 html {
   font-size: 16px; /* 1rem = 16px */
+  height: 100%;
 }
 
 :root {
@@ -951,6 +952,7 @@ footer {
 
   .our-products {
     margin-top: 49px;
+    max-width: 697px;
   }
 
   .our-products .our-products-title {
@@ -960,6 +962,7 @@ footer {
 
   .our-products-wrapper {
     grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
   }
 
   .product {
