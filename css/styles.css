@@ -955,11 +955,15 @@ footer {
 
   .our-products .our-products-title {
     font-size: 1.125rem;
+    margin-bottom: 42px;
   }
 
   .our-products-wrapper {
-    gap: 10px;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product {
+    max-width: 335px;
   }
 
   .product-description-title {
