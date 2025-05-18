@@ -963,7 +963,7 @@ footer {
   .our-products-wrapper {
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   .product {
