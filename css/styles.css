@@ -706,7 +706,6 @@ button:hover {
   grid-template-columns: repeat(3, 1fr);
   gap: 60px;
   justify-content: space-between;
-  /* margin-bottom: 60px; */
 }
 
 .product {
@@ -785,7 +784,6 @@ footer {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  /* margin-top: auto; */
 }
 
 .footer-social-media {
@@ -963,7 +961,6 @@ footer {
   .our-products-wrapper {
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
-    /* margin-bottom: 50px; */
   }
 
   .product {
